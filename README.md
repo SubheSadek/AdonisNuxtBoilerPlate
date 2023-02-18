@@ -8,42 +8,38 @@ Node.js (version 12 or higher)
 npm or yarn package manager
 Once you have these dependencies installed, follow these steps:
 
-Clone the repository to your local machine:
-
+1. Clone the repository to your local machine:
 git clone https://github.com/username/AdonisNuxtBoilerPlate.git
 Navigate to the project directory:
 
-cd AdonisNuxtBoilerPlate
+2. cd AdonisNuxtBoilerPlate
 Install the dependencies:
 
-npm install
+3. npm install
 or
-
 yarn install
 Create a copy of the .env.example file and name it .env. Update the file with your environment-specific configuration.
 
-Migrate the database:
-
+4. Migrate the database:
 adonis migration:run
 Start the development server:
 
-css
+5. css
 adonis serve --dev
 Open a new terminal tab and navigate to the client directory:
 
-cd client
+6. cd client
 Install the dependencies:
 
-npm install
+7. npm install
 or
-
 yarn install
 Start the client development server:
 
-npm run dev
+9. npm run dev
 or
-
 yarn dev
+
 That's it! AdonisNuxtBoilerPlate is now set up and ready to use.
 
 Deployment
